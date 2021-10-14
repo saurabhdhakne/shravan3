@@ -15,7 +15,9 @@
 
 </head>
 <body>
-
+<div id="loader">
+  <img src="./images/loader.gif" alt="">
+</div>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <p> <a href="/"> <i class="fa fa-home font-weight-bold mr-1" aria-hidden="true"></i> Home </a> </p>
@@ -541,6 +543,14 @@ AOS.init();
   $('.carousel').carousel({
     interval: 4000
   })
+  setTimeout(function(){
+    document.getElementById('loader').style.opacity = "0.1";
+  },2500)
+  
+  setTimeout(function(){
+    document.getElementById('loader').style.display = "none";
+  },3500)
+  
 </script>
 
 </body>

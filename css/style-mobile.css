@@ -5,6 +5,13 @@
     overflow-x: hidden;
   }
 
+  #loader img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .classfinal {
     margin-top: 0;
     box-shadow: 0px 0px 0px;

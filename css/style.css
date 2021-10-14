@@ -11,6 +11,22 @@ body {
   color: #333333;
   overflow-x: hidden;
 }
+#loader {
+  display: block;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: black;
+  z-index: 999999;
+  transition: 1s all;
+}
+#loader img {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .logo {
   width: 50px;
 }
