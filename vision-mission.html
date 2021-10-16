@@ -17,36 +17,37 @@
 
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <p> <a href="/"> <i class="fa fa-home font-weight-bold mr-1" aria-hidden="true"></i> Home </a> </p>
-    <p> <a href="gallery.php"> <i class="fa fa-photo h5 font-weight-bold mr-1" aria-hidden="true"></i> Gallery </a> </p>
-    <p> <a href="products.html"> <i class="fa fa-suitcase font-weight-bold mr-1" aria-hidden="true"></i> Our Products </a> </p>
-    <p> <a href="certification.html"> <i class="fa fa-graduation-cap font-weight-bold mr-1" aria-hidden="true"></i> Certification </a> </p>
-    <p> <a href="vision-mission.html"> <i class="fa fa-eye font-weight-bold mr-1" aria-hidden="true"></i> Vision & Mission </a> </p>
-    <p> <a href="report.html"> <i class="fa fa-pie-chart font-weight-bold mr-1" aria-hidden="true"></i> Annual Report </a> </p>
-    <p> <a href="about.html"> <i class="fa fa-info-circle h5 font-weight-bold mr-1" aria-hidden="true"></i> About us</a> </p>
-    <p> <a href="contact.html"> <i class="fa fa-phone font-weight-bold mr-1" aria-hidden="true"></i> Contact Us </a> </p>
+    <p class="mr-4"> <a href="/" class="active"> Home </a> </p>
+    <p class="mr-4"> <a href="gallery.php"> Gallery </a> </p>
+    <p class="mr-4"> <a href="products.html"> Products </a> </p>
+    <p class="mr-4"> <a href="certification.html"> Certification </a> </p>
+    <p class="mr-4"> <a href="report.php"> Annual Report </a> </p>
+    <p class="mr-4"> <a href="contact.html"> Contact US </a> </p>
+    <p class="mr-2"> 
+      <div class="dropdown text-light">
+        <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About us
+        </a>
+        <div class="dropdown-menu bg-black" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="about.html">Overview</a>
+          <a class="dropdown-item" href="vision-mission.html">Vision & Mission</a>
+          <a class="dropdown-item" href="chairman.html">Chairman</a>
+          <a class="dropdown-item" href="awards.html">Awards</a>
+        </div>
+      </div> 
+    </p>
   </div>
 
 <div class="container-fluid">
     <div class="row ">
 
-          <div class="col-md-12 nav pt-3 classinitial d-flex align-items-center" id="nav">
-            
-            <div class="col-md-2 d-flextext-left text-light">
-              <a href="index.html"> <h2> <img src="./images/logo.png" width="40px" alt=""> </h2> </a>
+        <div class="col-md-12 text-center pt-4" id="navup">
+          <div class="row">
+
+            <div class="col-md-6 offset-md-3 text-left text-light text-center">
+              <a href="index.html"> <h2> <img src="./images/logo.png" width="100px" alt=""> </h2> </a>
+              <h3 class="text-dark">Aurangabad Distillery Limited</h3>
             </div>
-            
-            <div class="col-md-8 text-center d-flex justify-content-center mt-3 mid">
-              <p class="mr-4"> <a href="/" > Home </a> </p>
-              <p class="mr-4"> <a href="gallery.php"> Gallery </a> </p>
-              <p class="mr-4"> <a href="products.html"> Products </a> </p>
-              <p class="mr-4"> <a href="certification.html"> Certification </a> </p>
-              <p class="mr-4"> <a href="vision-mission.html" class="active"> Vision & Mission</a> </p>
-              <p class="mr-4"> <a href="report.php"> Annual Report </a> </p>
-              <p class="mr-4"> <a href="about.html"> About us </a> </p>
-              <p class="mr-4"> <a href="contact.html"> Contact US </a> </p>
-            </div>
-            
             <div class="col-md-2 text-right desktop-only d-flex justify-content-end">
               <div class="button-o d-flex ">
                 <button class="btn btn-0 d-flex justify-content-center align-items-center"> ENQUIRE NOW</button>
@@ -54,25 +55,53 @@
                 <button class="btn btn-2"> </button>
               </div>
             </div>
+            
+          </div>
 
+        </div>
+
+        <div class="col-md-12 nav pt-2 pb-2 classinitial d-flex align-items-center" id="nav">
+          
+          <div class="col-md-8 offset-md-2 text-center d-flex justify-content-center mt-3 mid">
+            <p class="mr-4"> <a href="/" class="active"> Home </a> </p>
+            <p class="mr-4"> <a href="gallery.php"> Gallery </a> </p>
+            <p class="mr-4"> <a href="products.html"> Products </a> </p>
+            <p class="mr-4"> <a href="certification.html"> Certification </a> </p>
+            <p class="mr-4"> <a href="report.php"> Annual Report </a> </p>
+            <p class="mr-4"> <a href="contact.html"> Contact US </a> </p>
+            <p class="mr-2"> 
+              <div class="dropdown text-light">
+                <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About us
+                </a>
+                <div class="dropdown-menu bg-black" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="about.html">Overiew</a>
+                  <a class="dropdown-item" href="vision-mission.html">Vision & Mission</a>
+                  <a class="dropdown-item" href="chairman.html">Chairman</a>
+                  <a class="dropdown-item" href="awards.html">Awards</a>
+                </div>
+              </div> 
+            </p>
           </div>
-    
-          <div class="col-md-12 navMob position-fixed d-flex align-items-center pt-2 pb-2" id="navMob">
-            <div class="col-2 h3 p-0">
-              <a href="index.html"> <img src="./images/logo.png" width="50px" alt=""> </a>
-            </div>
-            <div class="col-8 text-center" onclick="window.location='/'">
-              <h1>
-                <span>
-                  Aurangabad
-                  Distillery
-                  </span>  <br>
-                  Limited</h1>
-            </div>
-            <div class="col-2 ml-0 pl-1 h3 d-flex text-orange">
-              <a onclick="openNav()"> <i class="fa fa-bars font-weight-bold " aria-hidden="true"></i> </a>
-            </div>
+
+        </div>
+
+        <div class="col-md-12 navMob navMobHome position-fixed classinitial d-flex align-items-center " id="navMob">
+          <div class="col-2 h3 p-0">
+            <a href="index.html"> <img src="./images/logo.png" width="50px" alt=""> </a>
           </div>
+          <div class="col-8 text-center" onclick="window.location='/'">
+            <h1 data-aos-duration="5000" data-aos ="fade-up">
+              <span>
+                Aurangabad
+                Distillery
+              </span>  <br>
+              Limited</h1>
+          </div>
+          <div class="col-2 ml-0 pl-1 h3 d-flex text-orange">
+            <a onclick="openNav()"> <i class="fa fa-bars font-weight-bold " aria-hidden="true"></i> </a>
+          </div>
+        </div>
 
     </div>
 </div>
@@ -92,8 +121,40 @@
     <div class="row mb-5 mt-5 pt-5">
 
         <div class="col-md-8 offset-md-2">
-            <h2>  Vision and Mission </h2>
-        
+          <h2 class="mt-5"> OUR VISION </h2> 
+          <p> 
+            Dedicated to consistently delight our customers with high quality spirits, 
+            Aurangabad Distillery Limited core values of purity, quality and affordability 
+            have propelled us to be one of the most celebrated Spirits Company in India. 
+            We unwaveringly toil to exceed ourselves in the industry and in the hearts of 
+            our consumers by becoming a environmentally sustainable distillery. 
+          </p> 
+
+          <h2 class="mt-5">
+            OUR VALUES
+          </h2>
+          <p>
+            To consistently deliver products of the highest purity, quality and affordability; to provide a culture for growth and opportunities to all employees; to delight consumers with our existing products by controlling the craft. To keep our environment green and healthy by reducing carbon footprint.
+          </p>
+          
+          <h2 class="mt-5">
+            Research And Development:
+          </h2>
+          <p>
+            We tirelessly deploy  latest and superior methods, products and operations practices.
+          </p>
+          
+          <h2 class="mt-5">  Mentorship: </h2>
+          <p> As one of the rising star in spirits industry, we are aware that Aurangabad distillery Limited is a 
+              brand which is trusted by all the shareholders. 
+          </p>
+
+          <h2 class="mt-5">  Social And Economic contribution: </h2>
+          <p> We as a group are aware about the social and economic responsibilities and have firmly set foot in fulfilling all the 
+            compliances set by the Law at all levels.  
+          </p>
+
+          <h2 class="mt-5">  Vision and Mission </h2>
             <ul class="list-group mt-5 mb-5 ml-4">
                 <li class="list-group-item"> To become a environmentally sustainable distillery </li>
                 <li class="list-group-item"> To reduce carbon footprint </li>
@@ -102,6 +163,7 @@
                 <li class="list-group-item"> To achieve sustainable growth and create value by perfecting and controlling the craft </li>
                 <li class="list-group-item"> To provide exponential returns to share holders </li>
             </ul>
+
         </div>
     
 
@@ -148,8 +210,9 @@
   </div> 
 
   <div class="footer-copyright text-center text-white-50 py-3">
-  © 2021 Copyright:
-  <a class="text-white" href="">Saurabh Dhakne</a>
+    © 2021 Copyright:
+    <a class="text-white" href="">Saurabh Dhakne</a>
+  </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
@@ -161,14 +224,6 @@ AOS.init();
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</div>
-  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
-<script src="./scripts/nav.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
