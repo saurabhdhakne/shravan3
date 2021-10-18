@@ -92,8 +92,18 @@
   .products h1 {
     font-size: 2.5em;
   }
+  .products .content-head h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .products .content-head p {
+    font-size: 1em;
+  }
   .products .subhead {
     font-size: 0.6em;
+  }
+  .product .content-head {
+    padding: 20px;
   }
   .products .btn {
     height: 38px;
