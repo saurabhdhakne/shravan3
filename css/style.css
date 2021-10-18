@@ -12,7 +12,7 @@ body {
   overflow-x: hidden;
 }
 #loader {
-  display: none;
+  display: block;
   position: fixed;
   height: 100vh;
   width: 100%;
@@ -201,6 +201,7 @@ body {
   background: black;
   margin-top: 0;
   padding-bottom: 20px;
+  animation: menuAnimation 0.5s;
 }
 .classfinal a {
 }
@@ -256,6 +257,14 @@ body {
   }
   100% {
     margin-left: 2%;
+  }
+}
+@keyframes menuAnimation {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100px;
   }
 }
 @keyframes carouselImg {
@@ -498,6 +507,12 @@ body {
   .text-orange {
     color: #ec6041;
     font-size: 2.8em;
+  }
+  .text-orange2 {
+    color: #ec6041;
+  }
+  .bg-orange {
+    background: #ec6041;
   }
 
   #navup,

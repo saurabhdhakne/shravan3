@@ -31,7 +31,7 @@
         <div class="dropdown-menu bg-black" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="about.html">Overview</a>
           <a class="dropdown-item" href="vision-mission.html">Vision & Mission</a>
-          <a class="dropdown-item" href="chairman.html">Chairman</a>
+          <a class="dropdown-item" href="chairman.html">Chairman Message</a>
           <a class="dropdown-item" href="awards.html">Awards</a>
         </div>
       </div> 
@@ -77,7 +77,7 @@
                   <div class="dropdown-menu bg-black" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="about.html">Overiew</a>
                     <a class="dropdown-item" href="vision-mission.html">Vision & Mission</a>
-                    <a class="dropdown-item" href="chairman.html">Chairman</a>
+                    <a class="dropdown-item" href="chairman.html">Chairman Message</a>
                     <a class="dropdown-item" href="awards.html">Awards</a>
                   </div>
                 </div> 
