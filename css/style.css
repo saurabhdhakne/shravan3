@@ -250,6 +250,16 @@ body {
 .data-head span {
   color: #ec6041e8;
 }
+.awards {
+  text-align: center;
+}
+.awards h1 {
+  font-size: 2em;
+  font-family: "Poppins";
+}
+.awards b {
+  color: #ec6041e8;
+}
 
 @keyframes detaHeadAnimation {
   0% {
@@ -472,6 +482,7 @@ body {
   font-size: 3em;
   color: #ec6041;
 }
+
 @media screen and (max-height: 720px) {
   body {
     overflow-x: hidden;
